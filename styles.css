@@ -36,11 +36,11 @@ body {
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  --clr-bg: #000000; /*background color*/
+  --clr-bg-alt: #3e80d5;
+  --clr-fg: #3a7dd3;
+  --clr-fg-alt: #c13838;
+  --clr-primary: #2a439a;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -54,6 +54,13 @@ body {
 ::selection {
   background: var(--clr-primary);
   color: var(--clr-bg);
+}
+
+.about__image {
+  border-radius: 50%;
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  object-fit: cover; 
 }
 
 h1,
